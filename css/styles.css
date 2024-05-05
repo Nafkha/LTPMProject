@@ -1,0 +1,90 @@
+.flx {
+    display: flex;
+  }
+  
+  .pic{
+    border-radius: 50%;
+    width : 100px;
+  }
+  /* align */
+  .col {
+    flex-direction: column;
+  }
+  
+  .colC {
+    align-items: center;
+  }
+  
+  .colM {
+    justify-content: center;
+  }
+  
+  .row {
+    flex-direction: row;
+  }
+  
+  .rowC {
+    justify-content: center;
+  }
+  
+  .rowM {
+    align-items: center;
+  }
+  
+  /* gap */
+  .g4 {
+    gap: 4px;
+  }
+  
+  .g8 {
+    gap: 8px;
+  }
+  
+  .g16 {
+    gap: 16px;
+  }
+  
+  .gAuto {
+    gap: auto;
+  }
+  
+  /* size */
+  .fil {
+    flex: auto;
+  }
+  
+  .w100 {
+    width: 100%;
+  }
+  
+  /* text styles */
+  .h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  
+  .p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .sub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  /* text styles */
+  .gry100 {
+    color: var(--black);
+  }
+  .gry40 {
+    color: var(--black40);
+  }
+  .card:hover {
+    border: 3px solid var(--yellow);
+    scale: 1.05;
+  }
+  
