@@ -87,4 +87,26 @@
     border: 3px solid var(--yellow);
     scale: 1.05;
   }
-  
+  .card{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 0%;
+    flex-shrink: 0%;
+  }
+  .Service{
+    display: inline;
+    flex: 0 0 33.3333%;  
+
+    
+  }
+  .Services .Service p{
+    display: inline-block;
+    width: 200px;
+  }
